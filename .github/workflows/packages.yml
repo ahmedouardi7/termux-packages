@@ -1,5 +1,8 @@
+- name: Set Git Identity
+  run: |
+    git config --global user.name "AHMED OUARDI"
+    git config --global user.email "ahmedouardi7@gmail.com"
 name: Packages
-
 on:
   push:
     branches:
